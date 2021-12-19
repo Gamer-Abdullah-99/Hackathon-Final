@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* background-color: black; */
+  user-select: none;
+}
+#login {
+  border: 2px solid white;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+  box-shadow: 0px 0px 100px orange;
+  border-radius: 15px;
+  user-select: none;
+  margin: 100px auto;
+}
+#login a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: orange;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  background-color: inherit;
+}
+#login a:hover {
+  color: red;
+  cursor: pointer;
+}
+#form-error {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+}
+#form-btn {
+  border: 2px solid orange;
+  border-radius: 10px;
+  padding: 10px;
+  color: orange;
+  font-family: cursive;
+  font-weight: bold;
+  background-color: inherit;
+  font-size: 15px;
+  transition: all 0.5s ease-in-out;
+}
+#form-btn:hover {
+  color: white;
+  border: 2px solid orangered;
+  background-color: orangered;
+  cursor: pointer;
+}
+input {
+  border: 2px solid orange;
+  box-shadow: none;
+  border-radius: 5px;
+  height: 25px;
+  padding: 5px;
+}
+input:focus {
+  outline: none;
+  border-color: orangered;
+  box-shadow: 0 0 5px orangered;
+}
+#login {
+  border: 2px solid white;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+  box-shadow: 0px 0px 100px orange;
+  border-radius: 15px;
+  user-select: none;
+  margin: 100px auto;
+}
+#login a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: orange;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  background-color: inherit;
+}
+#login a:hover {
+  color: red;
+  cursor: pointer;
+}
+#form-error {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+}
+#login-heading {
+  background-image: linear-gradient(
+    45deg,
+    rgb(255, 0, 0),
+    rgb(255, 145, 0),
+    rgb(255, 0, 0)
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-family: cursive;
+}
+#login-sub-heading {
+  color: orange;
+  margin: 10px;
+  font-family: sans-serif;
+}
